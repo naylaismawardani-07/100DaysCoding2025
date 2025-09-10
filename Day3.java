@@ -4,7 +4,7 @@ public class Main {
     
     public static void main(String[] args) {
        /*Kommetar hari ini yaitu komentar
-         Jenis komentar itu ada 3 jenis yaitu
+         Jenis komentar itu ada 2 jenis yaitu
          yg pertama itu ada:
         */
         
