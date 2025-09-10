@@ -3,8 +3,8 @@ package Day3;
 public class Main {
     
     public static void main(String[] args) {
-       /*Kommetar hari ini yaitu komentar
-         Jenis komentar itu ada 2 jenis yaitu
+       /*Komentar hari ini yaitu komentar
+         Jenis komentar itu ada 2 jenis
          yg pertama itu ada:
         */
         
@@ -17,7 +17,7 @@ public class Main {
          
         /*komentar ini tidak akan dibaca oleh program
            ketika dijalankan.ini hanya catatan untuk
-           kita agar mudah mengingat kode apa yg kita 
+           kita agar mudah mengingat kode apa yang kita 
            masukkan
          */
     }
