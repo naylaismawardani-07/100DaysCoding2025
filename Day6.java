@@ -14,9 +14,9 @@ public class Main {
         System.out.println("berat badan saya " + beratbadan+" kg");
         System.out.println("tinggi badan saya " + tinggibadan+" cm");
         
-        /*tipe data tersebut mempunyai perbedaan 
-         * yaitu sama dengan tipe data bilangan bulat
-         * berbeda di kapasitas float lebih kecil dibanding double
+        /*Perbedaan utama antara tipe data float dan double terletak
+          *pada kapasitas serta tingkat presisinya.
+          *Tipe data float memiliki ukuran yang lebih kecil dibandingkan double
          */
     }
     
