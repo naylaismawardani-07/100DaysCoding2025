@@ -35,15 +35,7 @@ public class Main {
         double BeratBadan = input.nextDouble();
         System.out.println(BeratBadan);
         
-        //Mencetak
-        System.out.println("Nama \t\t: " + Nama);
-        System.out.println("NIM \t\t: " + NIM);
-        System.out.println("Umur \t\t: " + Umur);
-        System.out.println("Kelas \t\t: " + Kelas);
-        System.out.println("Alamat \t\t: " + Alamat);
-        System.out.println("Tinggi Badan \t: " + TinggiBadan);
-        System.out.println("Berat Badan \t: "+BeratBadan);
-   
+        
     }
     
 }
