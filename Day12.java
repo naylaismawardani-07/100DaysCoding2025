@@ -1,24 +1,51 @@
 package Day12;
-
+import java.util.Scanner;
 public class Main {
     
     public static void main(String[] args) {
-        //Biodata
-        String Nama = "Nayla Ismawardani";
-        String NIM = "D0225022";
-        int Umur = 18;
-        char Kelas = 'C';
-        String Alamat = "Papalang";
-        Double TinggiBadan = 153.5;
-        Double BeratBadan = 45.3;
+     Scanner input = new Scanner(System.in); 
+        //Biodata input Svanner
+    System.out.print("Masukkan Nama \t: ");
+        String Nama = input.nextLine();
+        System.out.println(Nama);
 
+        System.out.print("Masukkan NIM \t: ");
+        String NIM = input.nextLine();
+        System.out.println(NIM);
+
+        System.out.print("Masukkan Umur \t: ");
+        int Umur = input.nextInt();
+        System.out.println(Umur);
+
+        System.out.print("Masukkan Kelas \t: ");
+        char Kelas = input.next().charAt(0);
+        System.out.println(Kelas);
+
+        input.nextLine();
+        
+        System.out.print("Masukkan Alamat :");
+        String Alamat = input.nextLine();
+        System.out.println(Alamat);
+        
+        System.out.print("Masukkan Tinggi Badan \t: ");
+        double TinggiBadan = input.nextDouble();
+        System.out.println(TinggiBadan);
+
+        System.out.print("Masukkan Berat Badan \t: ");
+        double BeratBadan = input.nextDouble();
+        System.out.println(BeratBadan);
+        
+        //Mencetak
         System.out.println("Nama \t\t: " + Nama);
         System.out.println("NIM \t\t: " + NIM);
         System.out.println("Umur \t\t: " + Umur);
-        System.out.println("Kelas \t\t: " + Kelas + " Informatika");
+        System.out.println("Kelas \t\t: " + Kelas);
         System.out.println("Alamat \t\t: " + Alamat);
         System.out.println("Tinggi Badan \t: " + TinggiBadan);
-        System.out.println("Berat Badan \t: " + BeratBadan);
+        System.out.println("Berat Badan \t: "+BeratBadan);
+   
     }
     
 }
+   
+    
