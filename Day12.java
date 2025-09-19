@@ -4,7 +4,7 @@ public class Main {
     
     public static void main(String[] args) {
      Scanner input = new Scanner(System.in); 
-        //Biodata input Svanner
+        //Biodata input Scanner
     System.out.print("Masukkan Nama \t: ");
         String Nama = input.nextLine();
         System.out.println(Nama);
