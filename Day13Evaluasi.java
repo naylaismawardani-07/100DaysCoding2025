@@ -3,14 +3,14 @@ import java.util.Scanner;
 public class Berhasil {
     public static void main(String[] args){
         //Nomor 1
-               //file1
-               //package No1;
+        //file1
+        //package No1;
 
-               //file2
-               //public class file2{}
+        //file2
+        //public class file2{}
 
-               //file3
-               //public static void main(String[] args){}
+        //file3
+        //public static void main(String[] args){}
 
         //Nomor 2
         //Bagian 1 Deklarasi adalah yaitu memberikan tipe data dan variabelnya saja
