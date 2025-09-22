@@ -1,6 +1,6 @@
-package Day15;
+package Evaluasi;
 import java.util.Scanner;
-public class f {
+public class Day15{
     public static void main(String[] args) {   
     Scanner input = new Scanner(System.in); 
         System.out.print("Masukkan Angka 1 : ");
