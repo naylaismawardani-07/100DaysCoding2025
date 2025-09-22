@@ -9,9 +9,9 @@ public class f {
         int b = input.nextInt();
 
         int Penjumlahan = a + b;
-        System.out.println("Hasil Penjumlahan " + Penjumlahan);
+        System.out.println("Hasil Penjumlahan : " + Penjumlahan);
         
         int Pengurangan = a - b;
-        System.out.println("Hasil Pengurangan " + Pengurangan);
+        System.out.println("Hasil Pengurangan : " + Pengurangan);
 }
 }
