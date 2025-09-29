@@ -5,9 +5,9 @@ public class Main {
     public static void main(String[] args) {
         Scanner nay = new Scanner(System.in);
         System.out.print("Masukkan angka : ");
-        int sisi = nay.nextInt();
+        double sisi = nay.nextDouble();
         
-        int luas = sisi * sisi;
+        double luas = sisi * sisi;
         System.out.println("luas : " + luas);
     }
 }
