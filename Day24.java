@@ -11,6 +11,6 @@ public class Day24 {
         double r = nay.nextDouble();
         
         double Luas = PI * r * r;
-        System.out.printf("Luas lingkaran dengan jari-jari %.1f adalah : %.1f" ,r ,Luas);
+        System.out.printf("Luas lingkaran dengan jari-jari %.2f adalah : %.2f" ,r ,Luas);
     }
 }
