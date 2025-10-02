@@ -8,8 +8,12 @@ public class Day25 {
 
         i++;
         System.out.println("increment : " + i);
-
+        ++i;
+        System.out.println("pre increment : " + i);
+        
         i--;
         System.out.println("decrement : " + i);
+        --i;
+        System.out.println("pre decrement : " + i);
     }
 }
