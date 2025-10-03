@@ -2,9 +2,7 @@ package Belajar;
 
 public class Day26 {
     public static void main(String[] args){
-    int a;
-    int b;
-
+    int a,b;
     a = 15;
     b = 10;
 
