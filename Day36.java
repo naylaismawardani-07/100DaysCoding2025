@@ -57,5 +57,8 @@ public class Day36 {
         }else{
             System.out.println("Merk tidak tersedia ");
         }
-    }   
+    }  else {
+        System.out.println("Merk tidak tersedia ");
+    }
+    }  
 }
