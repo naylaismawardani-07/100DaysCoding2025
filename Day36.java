@@ -25,7 +25,6 @@ public class Day36 {
                 System.out.println("kapasitas mesin : 1500 cc");
                 System.out.println("Tipe transmisi : manual/matic");
             }else if (model == 2){
-                System.out.println("=== Spesifikasi ===");
                 System.out.println("=== Speisifikasi ===");
                 System.out.println("Merk mobil : Toyota");
                 System.out.println("Model : Fortuner");
@@ -33,32 +32,29 @@ public class Day36 {
                 System.out.println("Tipe transmisi : otomatis");
                 
             }else{
-                System.out.println("Merk tidak ditemukan");
+                System.out.println("Merk tidak tersedia");
             }
         }else if (merk == 2){
-                System.out.println("=== Speisifikasi ===");
-                System.out.println("Merk mobil : Honda");
-                System.out.println("Model : Brio");
-                System.out.println("kapasitas mesin : 1200 cc");
-                System.out.println("Tipe transmisi : manual/CVT");
+                System.out.println("=== MODEL HONDA ===");
+                System.out.println("1. Brio");
+                System.out.println("2. HR-V");
                 int model = n.nextInt();
 
             if(model == 1){
                 System.out.println("=== Speisifikasi ===");
                 System.out.println("Merk mobil : Honda");
+                System.out.println("Model : Brio");
+                System.out.println("kapasitas mesin : 1200 cc");
+                System.out.println("Tipe transmisi : manual/CVT");
+            }else if(model == 2){
+                System.out.println("=== Speisifikasi ===");
+                System.out.println("Merk mobil : Honda");
                 System.out.println("Model : HR-V");
                 System.out.println("kapasitas mesin : 1500 cc");
                 System.out.println("Tipe transmisi : Otomatis CVT");
-            }else if(model == 2){
-                System.out.println("=== Spesifikasi ===");
-                System.out.println("Merk Hp : infinix");
-                System.out.println("Model : GT 30 Pro");
-                System.out.println("Prosesor : MediaTek Dimensity 8300 Ultimate");
-                System.out.println("RAM : 12 GB");
-                System.out.println("Baterai : 5100 mAh");
             }
         }else{
-            System.out.println("Merk tidak ditemukan ");
+            System.out.println("Merk tidak tersedia ");
         }
     }   
 }
