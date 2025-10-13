@@ -11,54 +11,53 @@ public class Day36 {
         System.out.print("Masukkan merk mobil(1-2) : ");
         int merk = n.nextInt();
 
-        if(merk == 1){
+        if (merk == 1) {
             System.out.println("=== MODEL MOBIL ===");
             System.out.println("1. Avanza");
             System.out.println("2. Fortuner");
             System.out.print("Pilih model(1-2) : ");
             int model = n.nextInt();
 
-            if(model == 1){
+            if (model == 1) {
                 System.out.println("=== Speisifikasi ===");
                 System.out.println("Merk mobil : Toyota");
                 System.out.println("Model : Avanza");
                 System.out.println("kapasitas mesin : 1500 cc");
                 System.out.println("Tipe transmisi : manual/matic");
-            }else if (model == 2){
+            } else if (model == 2) {
                 System.out.println("=== Speisifikasi ===");
                 System.out.println("Merk mobil : Toyota");
                 System.out.println("Model : Fortuner");
                 System.out.println("kapasitas mesin : 2400 cc");
                 System.out.println("Tipe transmisi : otomatis");
-                
-            }else{
-                System.out.println("Merk tidak tersedia");
-            }
-        }else if (merk == 2){
-                System.out.println("=== MODEL HONDA ===");
-                System.out.println("1. Brio");
-                System.out.println("2. HR-V");
-                System.out.println("Pilih model(1-2)");
-                int model = n.nextInt();
 
-            if(model == 1){
+            } else {
+                System.out.println("Merk tidak ditemukan");
+            }
+        } else if (merk == 2) {
+            System.out.println("=== MODEL HONDA ===");
+            System.out.println("1. Brio");
+            System.out.println("2. HR-V");
+            System.out.print("pilih model (1-2) : ");
+            int model = n.nextInt();
+
+            if (model == 1) {
                 System.out.println("=== Speisifikasi ===");
                 System.out.println("Merk mobil : Honda");
                 System.out.println("Model : Brio");
                 System.out.println("kapasitas mesin : 1200 cc");
                 System.out.println("Tipe transmisi : manual/CVT");
-            }else if(model == 2){
+            } else if (model == 2) {
                 System.out.println("=== Speisifikasi ===");
                 System.out.println("Merk mobil : Honda");
                 System.out.println("Model : HR-V");
                 System.out.println("kapasitas mesin : 1500 cc");
                 System.out.println("Tipe transmisi : Otomatis CVT");
+            } else {
+                System.out.println("Merk tidak ditemukan ");
             }
-        }else{
-            System.out.println("Merk tidak tersedia ");
+        } else {
+            System.out.println("Merk tidak ditemukan ");
         }
-    }  else {
-        System.out.println("Merk tidak tersedia ");
     }
-    }  
 }
