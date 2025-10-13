@@ -38,6 +38,7 @@ public class Day36 {
                 System.out.println("=== MODEL HONDA ===");
                 System.out.println("1. Brio");
                 System.out.println("2. HR-V");
+                System.out.println("Pilih model(1-2)");
                 int model = n.nextInt();
 
             if(model == 1){
