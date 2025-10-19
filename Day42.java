@@ -48,7 +48,7 @@ public class Day42 {
         System.out.println("Jenis Pekerjaan\t\t : "+pilihan);
         System.out.println("Penghasilan Kotor\t : Rp"+penghasilan);
         System.out.println("Pajak Dikenakan\t\t : "+PajakPersen + "%");
-        System.out.println("Potongan Pajak\t\t : "+ Potongan);
+        System.out.println("Potongan\t\t : "+ Potongan);
         System.out.println("Penghasilan Bersih\t : "+GajiBersih);
     }
     
