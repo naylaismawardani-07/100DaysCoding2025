@@ -11,8 +11,8 @@ public class Day43 {
         String b = "";
         String c = "";
 
-        if (angka < 0){
-            System.out.println("Angka tidak boleh negatif");
+        if (angka <= 0){
+            System.out.println("Angka tidak boleh negatif dan nol");
             return;
         }
 
