@@ -11,6 +11,11 @@ public class Day43 {
         String b = "";
         String c = "";
 
+        if (angka < 0){
+            System.out.println(Angka tudak boleh negatif);
+            return;
+        }
+
         if (angka < 10){
             a = "satuan";
         }else if (angka < 100){
