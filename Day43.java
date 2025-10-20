@@ -12,7 +12,7 @@ public class Day43 {
         String c = "";
 
         if (angka < 0){
-            System.out.println(Angka tudak boleh negatif);
+            System.out.println("Angka tidak boleh negatif");
             return;
         }
 
