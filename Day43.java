@@ -11,18 +11,14 @@ public class Day43 {
         String b = "";
         String c = "";
 
-        if (angka < 0){
-            System.out.println("Angka tidak boleh negatif");
-            return;
-        }
-
         if (angka < 10){
             a = "satuan";
         }else if (angka < 100){
             a = "puluhan";
-        }else{
+        }else if (angka < 0){
+            System.out.println("Angka tidak boleh negatif");
+        }else {
             a = "ratusan";
-        }
 
         if (angka %2 == 0){
             b = " genap";
