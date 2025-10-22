@@ -28,7 +28,6 @@ public class Day45 {
                 break;
             default:
                 System.out.println("Pilihan kamu tidak tersedia");
-                break;
         }
     }
 }
