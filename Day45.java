@@ -11,9 +11,9 @@ public class Day45 {
         System.out.println("3. Camping");
         System.out.println("4. Kota");
         System.out.print("Pilih tempat tempat healing :");
-        String angka = n.nextLine();
+        String pilih = n.nextLine();
 
-        switch (angka){
+        switch (pilih){
             case "Pantai":
                 System.out.println("Kamu memilih pantai yang suara ombaknya bikin tenang");
                 break;
