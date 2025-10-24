@@ -35,6 +35,6 @@ public class Day47 {
             default:
                 hari = "Angka tidak valid";
         }
-        System.out.println("Heri : "+hari);
+        System.out.println("Hari : "+hari);
     }   
 }
