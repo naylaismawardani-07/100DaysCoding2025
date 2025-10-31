@@ -6,14 +6,15 @@ public class Day54 {
     public static void main(String[] args) {
         Scanner n = new Scanner(System.in);
 
-        int jumlahMahasiswa = 10;
+        System.out.print("Masukkan jumlah : ");
+        int jumlah = n.nextInt();
         double totalValid = 0;
         int jumlahValid = 0;
         int jumlahTidakValid = 0;
         double nilaiTerkecil = 100;
         double nilaiTerbesar = 0;
 
-        for (int i = 1; i <= jumlahMahasiswa; i++) {
+        for (int i = 1; i <= jumlah; i++) {
             System.out.print("Masukkan nilai mahasiswa ke-" + i + ": ");
             double nilai = n.nextDouble();
 
