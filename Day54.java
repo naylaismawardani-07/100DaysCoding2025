@@ -34,17 +34,12 @@ public class Day54 {
                 nilaiTerbesar = nilai;
             }
         }
+        double rataRata = totalValid / jumlahValid;
         System.out.println("Total nilai valid       : " + totalValid);
         System.out.println("Jumlah nilai valid      : " + jumlahValid);
         System.out.println("Jumlah nilai tidak valid: " + jumlahTidakValid);
-
-        if (jumlahValid > 0) {
-            double rataRata = totalValid / jumlahValid;
-            System.out.println("Nilai valid terkecil    : " + nilaiTerkecil);
-            System.out.println("Nilai valid terbesar    : " + nilaiTerbesar);
-            System.out.println("Rata-rata nilai valid   : " + rataRata);
-        } else {
-            System.out.println("Tidak ada nilai valid yang diproses.");
-        }
+        System.out.println("Nilai valid terkecil    : " + nilaiTerkecil);
+        System.out.println("Nilai valid terbesar    : " + nilaiTerbesar);
+        System.out.println("Rata-rata nilai valid   : " + rataRata);
     }
 }
