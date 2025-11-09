@@ -11,7 +11,7 @@ public class Day63 {
 
         for (int i = 1; i <= jumlah; i++) {
             System.out.print( i+" * ");
-            hasil = hasil * i;
+            hasil *= i;
         }
         System.out.println("\b\b\b = "+hasil);
     }
