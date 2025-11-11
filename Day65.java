@@ -9,10 +9,12 @@ public class Day65 {
         int N = n.nextInt();
         int angka = 1;
 
-        for (int i = 1; i <= N; i++) {
+        System.out.print(N + "! = ");
+        for (int i = N; i >= 1; i--) {
+            System.out.print(i + " * ");
             angka = angka * i;
         }
-        System.out.println("Hasil dari "+N+ "!"+" = "+angka);
+        System.out.println("\b\b\b = "+angka);
     }
     
 }
