@@ -8,11 +8,11 @@ public class Day98 {
         System.out.print("Masukkan jumlah bilangan Fibonacci: ");
         int bil = n.nextInt();
 
-        int a = 0;
+        int a = 1;
         int b = 1;
 
         System.out.println("Bilangan Fibonacci:");
-        for (int i = 0; i < bil; i++) {
+        for (int i = 1; i <= bil; i++) {
             System.out.print(a + " ");
             int c = a + b;
             a = b;
